@@ -45,9 +45,7 @@ function getUserChoice() {
 let sumUser = 0, sumComp = 0;
 function playRound(playerSelection) {
     let computerSelection = getComputerChoice();
-    // let result = ""
     let resultDiv = document.querySelector("#result");
-    // let playerSelection = getUserChoice();
     console.log("player= "+playerSelection + "  comp= "+computerSelection);
     if(playerSelection === computerSelection) {
         resultDiv.innerText =  "it's a tie!"
@@ -127,13 +125,3 @@ function playGame() {
     }
     else console.log("it's officially a TIE!")
 }
-
-
-// playGame();
-
-// const playerSelection = "rock";
-// const computerSelection = getComputerChoice();
-// console.log("player =  " + playerSelection)
-// console.log("comp =  " + computerSelection)
-// console.log(playRound(playerSelection, computerSelection));
-
