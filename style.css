@@ -1,0 +1,52 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: #8CB9BD;
+}
+
+#title {
+    font-size: 55px;
+    margin: 60px;
+    color: #FEFBF6;
+}
+
+#show-points {
+    display: flex;
+    gap: 40px;
+    color: #854b2c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+button {
+    background-color: #ECB159;
+    color: #854b2c;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    border-color: #854b2c;
+}
+
+#result {
+    font-size: 45px;
+    color: #ECB159;
+    -webkit-text-stroke: 0.5px #854b2c;
+    margin: 80px;
+}
